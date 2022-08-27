@@ -10,16 +10,15 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-.bg {
+main {
   display: grid;
   place-content: center;
-  height: 100vh;
+  min-height: 100vh;
   background: hsl(212deg, 45%, 89%);
 }
 
 .wrapper {
-  width: 325px;
-  height: 500px;
+  max-width: 20.313rem;
   background: white;
   border-radius: 15px;
   padding: 18px;
@@ -41,10 +40,10 @@ body {
 .heading {
   padding-bottom: 15px;
   color: hsl(218deg, 44%, 22%);
-  font-size: 21.5px;
+  font-size: 1.344rem;
 }
 
 .info {
   color: hsl(220deg, 15%, 55%);
-  font-size: 15px;
+  font-size: 0.938rem;
 }/*# sourceMappingURL=style.css.map */
